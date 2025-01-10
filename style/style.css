@@ -1,0 +1,553 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+* {
+  margin: 0px;
+}
+
+.header {
+  height: 765px;
+  background-image: url("../images/developer.png"),
+    url("../images/header_bg.png");
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+  background-color: rgb(255, 248, 243);
+}
+/* nav style */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0px 200px;
+}
+
+/* nav title style */
+.nav-title {
+  font-family: Open Sans;
+  font-size: 38px;
+  font-weight: 800;
+  line-height: 52px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* nav title alphabet "r" style */
+.text-primary {
+  color: rgb(253, 110, 10);
+}
+
+/* list item dot remove */
+nav ul li {
+  list-style: none;
+  margin-right: 51px;
+}
+
+/* list items a tag all font color & font family change */
+nav ul li a {
+  text-decoration: none;
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+
+.btn-primary {
+  /* outer button style */
+  width: 168px;
+  height: 54px;
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  border: none;
+
+  /* Entire button style */
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+.btn-primary #d {
+  margin-right: 5px;
+}
+.btn-contact #c {
+  margin-right: 5px;
+}
+
+/* banner div style */
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 40px 0px 200px;
+}
+
+/* banner-content size style */
+.banner-content {
+  max-width: 491px;
+}
+
+/* banner h4 style */
+.banner-content h4 {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 37px;
+  font-weight: 600;
+  line-height: 51px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* banner h1 style */
+.banner-content h1 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 71px;
+  font-weight: 700;
+  line-height: 97px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* banner p style */
+.banner-description {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+/* Contact button style */
+.btn-contact {
+  /* button outer style */
+  width: 134px;
+  height: 53px;
+  box-sizing: border-box;
+  border: 1px solid rgb(253, 110, 10);
+  border-radius: 5px;
+
+  /* button inner font style  */
+  color: rgb(253, 110, 10);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* banner profile picture sizes style */
+.banner .person {
+  width: 490px;
+  height: 567px;
+  margin-top: 144px;
+}
+
+/* about-me section style */
+#about-me {
+  max-width: 957px;
+  margin: 100px auto;
+}
+
+/* about main div style */
+.about-container {
+  margin: 0px auto;
+  display: flex;
+  text-align: center;
+
+  border-radius: 10px;
+  background: rgb(255, 248, 243);
+}
+
+/* about details div style */
+.about-details {
+  width: 100%;
+  margin-top: 110px;
+  margin-bottom: 110px;
+  margin-left: 131px;
+  margin-right: 131px;
+
+  box-sizing: border-box;
+}
+
+/* about details h1 style */
+.about-details h1 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  margin: 0px 0px 25px 0px;
+  text-align: center;
+}
+
+/* about-details paragraph style */
+.about-details p {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  margin: 0px;
+  text-align: center;
+}
+
+.about-info {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 18px 0px 18px;
+  padding: 0px;
+}
+
+.about-info p {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+  margin: 0px;
+  margin-top: 25px;
+  text-align: center;
+}
+
+.about-info span {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+/* What I do style */
+#what-do {
+  max-width: 957px;
+  margin: 100px auto;
+}
+.what-do-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.what-do-details {
+  width: 100%;
+  margin: 0px auto;
+  text-align: center;
+}
+
+.what-do-details h1 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.what-do-details p {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 25px;
+  letter-spacing: 0%;
+
+  width: 763px;
+  height: 75px;
+  margin: 0px auto;
+  margin-top: 26px;
+  margin-bottom: 42px;
+  text-align: center;
+}
+
+.what-do-contents {
+  width: 100%;
+  margin: 0px auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.what-do-contents .content {
+  width: 224px;
+  height: 316px;
+
+  border-radius: 5px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  background: rgb(255, 255, 255);
+}
+
+.what-do-contents .content h2 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  margin: 8px 0px 0px 25px;
+  padding: 0px;
+  text-align: left;
+}
+
+.what-do-contents .content img {
+  margin: 25px 0px 0px 25px;
+}
+
+.what-do-contents .content p {
+  width: 168px;
+  height: 164px;
+  margin: 16px 0px 0px 25px;
+
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+/* resume page style */
+
+#resume {
+  max-width: 957px;
+  margin: 100px auto;
+}
+
+.cv-download-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+.cv-download-button #d {
+  margin-right: 5px;
+}
+#resume button {
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  border-style: none;
+  width: 168px;
+  height: 53px;
+
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+#resume .resume-heading {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: center;
+  margin: 0px;
+  margin-bottom: 94px;
+}
+.resume-container {
+  display: flex;
+  justify-content: center;
+}
+
+.resume-details1 {
+  justify-content: space-between;
+}
+
+.resume-details1 h1 {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 34px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 25px;
+  padding: 0px;
+}
+
+.resume-details1 h4 {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 21px;
+  font-weight: 700;
+  line-height: 25px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 8px;
+  margin-top: 25px;
+  padding: 0px;
+}
+
+.resume-details1 h6 {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 16px;
+  padding: 0px;
+}
+
+.resume-details1 p {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  width: 429px;
+  height: 70px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.resume-details1 hr {
+  border: 1px solid rgb(209, 209, 209);
+  width: 450px;
+  margin: 0px;
+  margin-right: 20px;
+}
+
+#foot {
+  display: block;
+}
+
+.foot-container {
+  display: flex;
+  justify-content: space-evenly;
+  background-color: rgb(255, 248, 243);
+}
+
+.foot-container1 {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 100px;
+}
+.foot-container1 h1 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 23px;
+}
+.foot-conatiner1-icon {
+  display: flex;
+  justify-content: left;
+  gap: 21px;
+  margin-top: 25px;
+}
+.foot-conatiner1-icon img {
+  width: 20px;
+  height: 20px;
+}
+
+.foot-container1 p {
+  color: rgb(71, 71, 71);
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  width: 472px;
+  height: 47px;
+  text-align: left;
+}
+
+.foot-container2 {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 100px;
+}
+
+.foot-container2 h1 {
+  color: rgb(24, 24, 24);
+  font-family: Open Sans;
+  font-size: 29px;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0px;
+  margin-bottom: 23px;
+}
+
+.foot-container2 input {
+  border-radius: 5px;
+  border-style: none;
+  background: rgb(255, 255, 255);
+  display: block;
+  width: 387px;
+  height: 53px;
+  margin: 0px;
+  margin-bottom: 20px;
+}
+
+.foot-container2 textarea {
+  border-radius: 5px;
+  border-style: none;
+  background: rgb(255, 255, 255);
+  width: 387px;
+  height: 151px;
+  margin: 0px;
+  margin-bottom: 20px;
+  resize: none;
+}
+
+.foot-container2 .sub-btn {
+  border-radius: 5px;
+  background: rgb(253, 110, 10);
+  border-style: none;
+  width: 126px;
+  height: 53px;
+
+  color: rgb(255, 255, 255);
+  font-family: Open Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: center;
+}
+
+.foot-container2 ::placeholder {
+  color: rgb(117, 117, 117);
+  font-family: Open Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 0px;
+  padding: 0px;
+  padding-left: 25px;
+  padding-bottom: 15px;
+}
