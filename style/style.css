@@ -5,12 +5,7 @@
 }
 
 .header {
-  height: 765px;
-  background-image: url("../images/developer.png"),
-    url("../images/header_bg.png");
-  background-repeat: no-repeat;
-  background-position: top left, bottom right;
-  background-color: rgb(255, 248, 243);
+background-color: rgb(255, 248, 243);
 }
 /* nav style */
 nav {
@@ -86,7 +81,7 @@ nav ul {
 .banner {
   display: flex;
   justify-content: space-between;
-  margin: 0px 40px 0px 200px;
+  margin: 50px 100px 0px 100px;
 }
 
 /* banner-content size style */
@@ -103,6 +98,7 @@ nav ul {
   line-height: 51px;
   letter-spacing: 0%;
   text-align: left;
+  padding-top: 200px;
 }
 
 /* banner h1 style */
@@ -239,7 +235,7 @@ nav ul {
 }
 .what-do-container {
   display: flex;
-  flex-direction: column;
+
 }
 
 .what-do-details {
@@ -550,4 +546,133 @@ nav ul {
   padding: 0px;
   padding-left: 25px;
   padding-bottom: 15px;
+}
+
+/* responsive code */
+.hide{
+  display: none;
+}
+
+@media screen and (max-width: 576px) {
+  nav, 
+  nav>ul,
+  .about-info,
+.resume-container,
+.foot-container {
+    flex-direction: column;
+  }
+
+  .banner{
+    flex-direction: column-reverse;
+  }
+  nav{
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  ul{
+    padding-left: 0px;
+    margin-bottom: 20px;
+  }
+
+  ul>li{
+    padding: 10px;
+  }
+
+.banner .person{
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+}
+.banner{
+  margin: 0px;
+}
+
+.banner-content{
+padding-left: 10px;
+}
+.banner-content h4{
+  padding-top: 50px;
+}
+.banner-description{
+  padding-top: 10px;
+}
+
+.about-details{
+  margin: 50px 0px 50px 0px;
+}
+.about-details p{
+  padding-left: 3px;
+  padding-right: 3px;
+}
+
+.what-do-contents{
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 10px;
+  
+}
+
+.content{
+  margin: 0px auto;
+}
+.what-do-details{
+  margin-bottom: 80px;
+}
+
+.what-do-details p{
+  width: calc(100% - 5px);
+  margin: 0px;
+}
+
+.resume-heading{
+  text-align: center;
+}
+.resume-details1 h1{
+  text-align: center;
+}
+.resume-details1 {
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+.resume-details1 p{
+  width: 100%;
+}
+
+.resume-details1 hr{
+  width: 100%;
+}
+
+.resume-details2{
+  margin-top: 50px;
+}
+
+
+.foot-container1{
+  margin-left: 10.5px;
+  padding-top: 50px;
+}
+
+.foot-container1 p{
+  width: 100%;
+}
+.foot-container2 h1{
+  text-align: left;
+}
+.foot-container2 {
+  margin-left: 10.5px;
+  padding-top: 50px;
+}
+.foot-container2 input{
+  width: 90%;
+}
+
+.foot-container2 textarea{
+  width: 90%;
+}
+.foot-container2 .sub-btn{
+  margin: 0px auto;
+  margin-bottom: 10px;
+}
 }
